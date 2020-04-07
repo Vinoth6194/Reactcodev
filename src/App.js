@@ -12,20 +12,20 @@ class App extends Component{
   render(){
     return (
      <div className = "App">
-       <Counter></Counter>
+       {/* <Counter></Counter> */}
        {/* <Message></Message> */}
-       {/* <Greet name = "Vinothkumar" heroName = "Ranveer">
+       <Greet name = "Vinothkumar" heroName = "Ranveer">
          <p>The Gully Boy</p>
        </Greet>
-       <Greet name = "Selvan" heroName = "Hrithik">
+       {/* <Greet name = "Selvan" heroName = "Hrithik">
          <button>Demo</button>
        </Greet>
-       <Greet name = "Kiruthika" heroName = "Vijay"></Greet>
+       <Greet name = "Kiruthika" heroName = "Vijay"></Greet> */}
 
        <Welcome name = "Vinothkumar" heroName = "Ranveer">
        <p>The Gully Boy</p>
       </Welcome>
-       <Welcome name = "Selvan" heroName = "Hrithik" ></Welcome>
+       {/* <Welcome name = "Selvan" heroName = "Hrithik" ></Welcome>
        <Welcome name = "Kiruthika" heroName = "Vijay"></Welcome> */}
         {/* <Hello></Hello> */}
      </div>
