@@ -8,10 +8,15 @@ import Hello from './components/Hello';
 import Message from './components/Message';
 import Count from './components/Counter';
 import Counter from './components/Counter';
+import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
 class App extends Component{
   render(){
     return (
      <div className = "App">
+       <FunctionClick></FunctionClick>
+       <ClassClick></ClassClick>
+
        {/* <Counter></Counter> */}
        {/* <Message></Message> */}
        <Greet name = "Vinothkumar" heroName = "Ranveer">
@@ -21,10 +26,10 @@ class App extends Component{
          <button>Demo</button>
        </Greet>
        <Greet name = "Kiruthika" heroName = "Vijay"></Greet> */}
-
+{/* 
        <Welcome name = "Vinothkumar" heroName = "Ranveer">
        <p>The Gully Boy</p>
-      </Welcome>
+      </Welcome> */}
        {/* <Welcome name = "Selvan" heroName = "Hrithik" ></Welcome>
        <Welcome name = "Kiruthika" heroName = "Vijay"></Welcome> */}
         {/* <Hello></Hello> */}
