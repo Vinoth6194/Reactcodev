@@ -5,10 +5,12 @@ import './App.css';
 import Greet  from './components/Greet';
 import Welcome from './components/Welcome';
 import Hello from './components/Hello';
+import Message from './components/Message';
 class App extends Component{
   render(){
     return (
      <div className = "App">
+       <Message></Message>
        {/* <Greet name = "Vinothkumar" heroName = "Ranveer">
          <p>The Gully Boy</p>
        </Greet>
@@ -22,7 +24,7 @@ class App extends Component{
       </Welcome>
        <Welcome name = "Selvan" heroName = "Hrithik" ></Welcome>
        <Welcome name = "Kiruthika" heroName = "Vijay"></Welcome> */}
-        <Hello></Hello>
+        {/* <Hello></Hello> */}
      </div>
     // <Greet></Greet>
     )
