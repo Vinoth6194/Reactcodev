@@ -1,7 +1,15 @@
 import React from 'react';
 
- const Greet = () =>  <h1>Hai Vinothkumar </h1>
-    
+ const Greet = (props) =>{
+     return (
+         <div>
+             <h1>
+             {props.name} a.k.a {props.heroName}
+         </h1>
+         {props.children}
+         </div>        
+     )
+ } 
 
 
 // function Greet(){

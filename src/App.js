@@ -8,8 +8,20 @@ class App extends Component{
   render(){
     return (
      <div className = "App">
-       <Greet></Greet>
-       <Welcome></Welcome>
+       <Greet name = "Vinothkumar" heroName = "Ranveer">
+         <p>The Gully Boy</p>
+       </Greet>
+       <Greet name = "Selvan" heroName = "Hrithik">
+         <button>Demo</button>
+       </Greet>
+       <Greet name = "Kiruthika" heroName = "Vijay"></Greet>
+
+       <Welcome name = "Vinothkumar" heroName = "Ranveer">
+       <p>The Gully Boy</p>
+      </Welcome>
+       <Welcome name = "Selvan" heroName = "Hrithik" ></Welcome>
+       <Welcome name = "Kiruthika" heroName = "Vijay"></Welcome>
+
      </div>
     // <Greet></Greet>
     )
