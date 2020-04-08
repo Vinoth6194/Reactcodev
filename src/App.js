@@ -12,6 +12,7 @@ import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
 import EventBind from './components/Eventbind';
 import Parent from './components/Parent';
+import UserGreeting from './components/UserGreeting';
 
 class App extends Component{
   render(){
@@ -20,8 +21,9 @@ class App extends Component{
        {/* <FunctionClick></FunctionClick>
        <ClassClick></ClassClick> */}
       {/* <EventBind></EventBind> */}
-       <Parent></Parent>
+       {/* <Parent></Parent> */}
        {/* <Counter></Counter> */}
+       <UserGreeting></UserGreeting>
        {/* <Message></Message> */}
        {/* <Greet name = "Vinothkumar" heroName = "Ranveer">
          <p>The Gully Boy</p>
