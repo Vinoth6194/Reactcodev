@@ -17,13 +17,19 @@ class UserGreeting extends Component {
         //     return (<div><h1>Welcome Guest</h1></div>)
         // }
         // !Element Variable
-        let message
-        if(this.state.isLoggedIn){
-            message = <div>Welcome Vinoth</div>
-        }else{
-            message = <div>Welcome Guest</div>
-        }
-        return <h1>{message}</h1>
+        // let message
+        // if(this.state.isLoggedIn){
+        //     message = <div>Welcome Vinoth</div>
+        // }else{
+        //     message = <div>Welcome Guest</div>
+        // }
+        // return <h1>{message}</h1>
+
+        
+        //!Ternary operator
+        return (this.state.isLoggedIn? (<div><h1>Welcome Vinoth</h1></div>): <div><h1>Welcome Guest</h1></div>)
+        
+       
         
 }
 
