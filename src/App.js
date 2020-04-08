@@ -13,6 +13,9 @@ import ClassClick from './components/ClassClick';
 import EventBind from './components/Eventbind';
 import Parent from './components/Parent';
 import UserGreeting from './components/UserGreeting';
+import NameList from './components/NameList';
+import VFunctional from './components/VinothComponents/VFunctional';
+import VClass from './components/VinothComponents/VClass';
 
 class App extends Component{
   render(){
@@ -23,7 +26,10 @@ class App extends Component{
       {/* <EventBind></EventBind> */}
        {/* <Parent></Parent> */}
        {/* <Counter></Counter> */}
-       <UserGreeting></UserGreeting>
+       {/* <UserGreeting></UserGreeting> */}
+       {/* <NameList></NameList> */}
+       <VFunctional name = "Vinothkumar" age = "25"></VFunctional>
+       <VClass name = "Kiruthika" age = "21"></VClass>
        {/* <Message></Message> */}
        {/* <Greet name = "Vinothkumar" heroName = "Ranveer">
          <p>The Gully Boy</p>
