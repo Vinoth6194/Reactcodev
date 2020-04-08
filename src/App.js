@@ -16,6 +16,7 @@ import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import VFunctional from './components/VinothComponents/VFunctional';
 import VClass from './components/VinothComponents/VClass';
+import VFamilyList from './components/VinothComponents/VFamilyList';
 
 class App extends Component{
   render(){
@@ -28,8 +29,9 @@ class App extends Component{
        {/* <Counter></Counter> */}
        {/* <UserGreeting></UserGreeting> */}
        {/* <NameList></NameList> */}
-       <VFunctional name = "Vinothkumar" age = "25"></VFunctional>
-       <VClass name = "Kiruthika" age = "21"></VClass>
+       {/* <VFunctional name = "Vinothkumar" age = "25"></VFunctional>
+       <VClass name = "Kiruthika" age = "21"></VClass> */}
+       <VFamilyList></VFamilyList>
        {/* <Message></Message> */}
        {/* <Greet name = "Vinothkumar" heroName = "Ranveer">
          <p>The Gully Boy</p>
