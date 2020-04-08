@@ -17,6 +17,8 @@ import NameList from './components/NameList'
 import NameListOne from './components/NameListOne';
 import StyleSheet from './components/Stylesheet';
 import Inlinestyle from './components/Inlinestyle';
+import './appStyles.css';
+import styles from './appStyles.module.css';
 
 class App extends Component{
   render(){
@@ -33,6 +35,8 @@ class App extends Component{
          {/* <StyleSheet primary ={true} ></StyleSheet> */}
        {/* <Message></Message> */}
        <Inlinestyle></Inlinestyle>
+       <h1 className = "danger">Am an error</h1>
+       <h1 className = {styles.vinoth}>Am from Modulecss</h1>
        {/* <Greet name = "Vinothkumar" heroName = "Ranveer">
          <p>The Gully Boy</p>
        </Greet> */}
