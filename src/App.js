@@ -14,6 +14,7 @@ import EventBind from './components/Eventbind';
 import Parent from './components/Parent';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList'
+import NameListOne from './components/NameListOne';
 
 class App extends Component{
   render(){
@@ -25,7 +26,8 @@ class App extends Component{
        {/* <Parent></Parent> */}
        {/* <Counter></Counter> */}
        {/* <UserGreeting></UserGreeting> */}
-         <NameList></NameList> 
+         {/* <NameList></NameList>  */}
+         <NameListOne></NameListOne>
        {/* <Message></Message> */}
        {/* <Greet name = "Vinothkumar" heroName = "Ranveer">
          <p>The Gully Boy</p>
