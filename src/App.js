@@ -10,18 +10,20 @@ import Count from './components/Counter';
 import Counter from './components/Counter';
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
+import EventBind from './components/Eventbind';
+
 class App extends Component{
   render(){
     return (
      <div className = "App">
-       <FunctionClick></FunctionClick>
-       <ClassClick></ClassClick>
-
+       {/* <FunctionClick></FunctionClick>
+       <ClassClick></ClassClick> */}
+      <EventBind></EventBind>
        {/* <Counter></Counter> */}
        {/* <Message></Message> */}
-       <Greet name = "Vinothkumar" heroName = "Ranveer">
+       {/* <Greet name = "Vinothkumar" heroName = "Ranveer">
          <p>The Gully Boy</p>
-       </Greet>
+       </Greet> */}
        {/* <Greet name = "Selvan" heroName = "Hrithik">
          <button>Demo</button>
        </Greet>
