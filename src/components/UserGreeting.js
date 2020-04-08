@@ -27,9 +27,11 @@ class UserGreeting extends Component {
 
         
         //!Ternary operator
-        return (this.state.isLoggedIn? (<div><h1>Welcome Vinoth</h1></div>): <div><h1>Welcome Guest</h1></div>)
+        // return (this.state.isLoggedIn? (<div><h1>Welcome Vinoth</h1></div>): <div><h1>Welcome Guest</h1></div>)
         
-       
+       //!Short circuit operator &&
+        //! displays one on condition or nothing.
+        return this.state.isLoggedIn && <div><h1>Welcome Vinoth</h1></div> 
         
 }
 
