@@ -24,7 +24,8 @@ function NameList(){
    // const personList = persons.map(person => (<h2> Name is {person.name}. I'm {person.age}. I am skilled in {person.skill} </h2>))
    
    //!Passing another component as a prop for listing
-   const personList = persons.map(person => <Persons person = {person}/>)
+   //!Key prop for uniq ref of item in a list
+   const personList = persons.map(person => <Persons key={person.name} person = {person}/>)
 
     return (
             // <div>{nameList}</div>
