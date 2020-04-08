@@ -15,6 +15,8 @@ import Parent from './components/Parent';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList'
 import NameListOne from './components/NameListOne';
+import StyleSheet from './components/Stylesheet';
+import Inlinestyle from './components/Inlinestyle';
 
 class App extends Component{
   render(){
@@ -27,8 +29,10 @@ class App extends Component{
        {/* <Counter></Counter> */}
        {/* <UserGreeting></UserGreeting> */}
          {/* <NameList></NameList>  */}
-         <NameListOne></NameListOne>
+         {/* <NameListOne></NameListOne> */}
+         {/* <StyleSheet primary ={true} ></StyleSheet> */}
        {/* <Message></Message> */}
+       <Inlinestyle></Inlinestyle>
        {/* <Greet name = "Vinothkumar" heroName = "Ranveer">
          <p>The Gully Boy</p>
        </Greet> */}
